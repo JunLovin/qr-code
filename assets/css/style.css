@@ -16,7 +16,56 @@
 /* General Style */
 
 body {
+    height: 95vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-content: center;
+    align-items: center;
     font-family: 'Outfit', serif;
+    background-color: var(--slate-300);
+}
+
+/* Main Box Style */
+
+main {
+    margin: 0 auto;
+    width: 21.78rem;
+    height: 35rem;
+    background-color: var(--white);
+    border-radius: 1.5rem;
+}
+
+/* Img Section Style */
+
+.img-section {
+    width: 100%;
+    padding: 1.2rem;
+}
+
+.img-section img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+/* Text Section Style */
+
+.text-section {
+    margin: 0 auto;
+    width: 78%;
+    text-align: center;
+}
+
+.text-section h2 {
+    font-size: 25px;
+    margin-bottom: 1rem;
+    color: var(--slate-900);
+}
+
+.text-section p {
+    font-size: 18px;
+    color: var(--slate-500);
 }
 
 /* Attribution Style */
